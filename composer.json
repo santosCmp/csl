@@ -1,9 +1,9 @@
 {
-    "name": "santoscmp/ecommerce",
+    "name": "santosCmp/csl",
     "authors": [
         {
-            "name": "Santos Cmp",
-            "email": "elvecio0800@gmail.com"
+            "name": "Hcode Treinamentos",
+            "email": "suporte@hcode.com.br"
         }
     ],
     "require": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "": "vendor\\csl\\php-classes\\src"
+            "": "vendor\\santosCmp\\php-classes\\src"
         }
     }
 }

@@ -4,10 +4,10 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit92aff84b156d3f25fd5a7057b2cec53d
+class ComposerStaticInit14baae8d18e4b72225ffae71a703c8a3
 {
     public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/csl/php-classes/src',
+        0 => __DIR__ . '/..' . '/santosCmp/php-classes/src',
     );
 
     public static $prefixesPsr0 = array (
@@ -41,9 +41,9 @@ class ComposerStaticInit92aff84b156d3f25fd5a7057b2cec53d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->fallbackDirsPsr4 = ComposerStaticInit92aff84b156d3f25fd5a7057b2cec53d::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit92aff84b156d3f25fd5a7057b2cec53d::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit92aff84b156d3f25fd5a7057b2cec53d::$classMap;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit14baae8d18e4b72225ffae71a703c8a3::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit14baae8d18e4b72225ffae71a703c8a3::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit14baae8d18e4b72225ffae71a703c8a3::$classMap;
 
         }, null, ClassLoader::class);
     }
