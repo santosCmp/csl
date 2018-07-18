@@ -2,8 +2,8 @@
     "name": "santosCmp/csl",
     "authors": [
         {
-            "name": "Hcode Treinamentos",
-            "email": "suporte@hcode.com.br"
+            "name": "CSL Sistemas",
+            "email": "csl@solucoes.com.br"
         }
     ],
     "require": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "": "vendor\\santosCmp\\php-classes\\src"
+            "santos\\":"vendor\\santosCmp\\php-classes\\src"
         }
     }
 }

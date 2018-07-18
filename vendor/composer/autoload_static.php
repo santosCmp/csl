@@ -6,8 +6,18 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit14baae8d18e4b72225ffae71a703c8a3
 {
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/santosCmp/php-classes/src',
+    public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'santos\\' => 7,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'santos\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/santosCmp/php-classes/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -41,7 +51,8 @@ class ComposerStaticInit14baae8d18e4b72225ffae71a703c8a3
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->fallbackDirsPsr4 = ComposerStaticInit14baae8d18e4b72225ffae71a703c8a3::$fallbackDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit14baae8d18e4b72225ffae71a703c8a3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit14baae8d18e4b72225ffae71a703c8a3::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit14baae8d18e4b72225ffae71a703c8a3::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit14baae8d18e4b72225ffae71a703c8a3::$classMap;
 
